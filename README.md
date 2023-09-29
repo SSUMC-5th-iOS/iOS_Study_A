@@ -1,7 +1,7 @@
 # 🍎 iOS_Study_A
 SSUMC 5기 iOS 스터디 A조
 
-![image](https://github.com/iiuoon/SSUMC_iOS/assets/84546438/d426ad45-f232-4e94-9a72-72d3acee9995)
+![umc+logo](https://github.com/SSUMC-5th-iOS/iOS_Study_A/assets/84546438/ae41d05c-6f71-47bc-9944-84230b5d4dd6)
 
 ## 💻 Member
 | 김수민 | 김민지 | 박현수 | 신혜림 |
