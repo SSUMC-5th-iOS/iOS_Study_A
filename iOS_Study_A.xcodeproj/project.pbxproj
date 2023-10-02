@@ -13,6 +13,8 @@
 		954B6B682AC57BE100FDCFAB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 954B6B662AC57BE100FDCFAB /* Main.storyboard */; };
 		954B6B6A2AC57BE200FDCFAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 954B6B692AC57BE200FDCFAB /* Assets.xcassets */; };
 		954B6B6D2AC57BE200FDCFAB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 954B6B6B2AC57BE200FDCFAB /* LaunchScreen.storyboard */; };
+		A51839F22ACB335D002A66F1 /* ProductTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A51839F02ACB335D002A66F1 /* ProductTableViewCell.swift */; };
+		A51839F32ACB335D002A66F1 /* ProductTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A51839F12ACB335D002A66F1 /* ProductTableViewCell.xib */; };
 		A5FAC0D02AC956C300452170 /* IMG_2962.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A5FAC0CF2AC956C300452170 /* IMG_2962.jpg */; };
 /* End PBXBuildFile section */
 
@@ -25,6 +27,8 @@
 		954B6B692AC57BE200FDCFAB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		954B6B6C2AC57BE200FDCFAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		954B6B6E2AC57BE200FDCFAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A51839F02ACB335D002A66F1 /* ProductTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductTableViewCell.swift; sourceTree = "<group>"; };
+		A51839F12ACB335D002A66F1 /* ProductTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductTableViewCell.xib; sourceTree = "<group>"; };
 		A5FAC0CF2AC956C300452170 /* IMG_2962.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_2962.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -66,6 +70,8 @@
 				A5FAC0CF2AC956C300452170 /* IMG_2962.jpg */,
 				954B6B6B2AC57BE200FDCFAB /* LaunchScreen.storyboard */,
 				954B6B6E2AC57BE200FDCFAB /* Info.plist */,
+				A51839F02ACB335D002A66F1 /* ProductTableViewCell.swift */,
+				A51839F12ACB335D002A66F1 /* ProductTableViewCell.xib */,
 			);
 			path = iOS_Study_A;
 			sourceTree = "<group>";
@@ -98,7 +104,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1430;
-				LastUpgradeCheck = 1430;
+				LastUpgradeCheck = 1500;
 				TargetAttributes = {
 					954B6B5C2AC57BE100FDCFAB = {
 						CreatedOnToolsVersion = 14.3.1;
@@ -130,6 +136,7 @@
 			files = (
 				954B6B6D2AC57BE200FDCFAB /* LaunchScreen.storyboard in Resources */,
 				954B6B6A2AC57BE200FDCFAB /* Assets.xcassets in Resources */,
+				A51839F32ACB335D002A66F1 /* ProductTableViewCell.xib in Resources */,
 				A5FAC0D02AC956C300452170 /* IMG_2962.jpg in Resources */,
 				954B6B682AC57BE100FDCFAB /* Main.storyboard in Resources */,
 			);
@@ -143,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				954B6B652AC57BE100FDCFAB /* ViewController.swift in Sources */,
+				A51839F22ACB335D002A66F1 /* ProductTableViewCell.swift in Sources */,
 				954B6B612AC57BE100FDCFAB /* AppDelegate.swift in Sources */,
 				954B6B632AC57BE100FDCFAB /* SceneDelegate.swift in Sources */,
 			);
@@ -206,6 +214,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -266,6 +275,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
