@@ -8,7 +8,7 @@
 import UIKit
 
 class PostTableViewCell: UITableViewCell {
-
+    @IBOutlet weak var cellContentView: UITableViewCell!
     @IBOutlet weak var buttonLikes: UIButton!
     @IBOutlet weak var buttonComment: UIButton!
     @IBOutlet weak var labelPrice: UILabel!
@@ -17,10 +17,9 @@ class PostTableViewCell: UITableViewCell {
     @IBOutlet weak var labelProductName: UILabel!
     override func awakeFromNib() {
         super.awakeFromNib()
-        /*
+        
         productImageView.layer.cornerRadius = 5
         productImageView.clipsToBounds = true
-         */
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {

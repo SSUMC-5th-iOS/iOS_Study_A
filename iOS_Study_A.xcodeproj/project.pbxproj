@@ -13,6 +13,10 @@
 		954B6B6A2AC57BE200FDCFAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 954B6B692AC57BE200FDCFAB /* Assets.xcassets */; };
 		954B6B6D2AC57BE200FDCFAB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 954B6B6B2AC57BE200FDCFAB /* LaunchScreen.storyboard */; };
 		DF7434E22ACB984D000700D5 /* PostTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF7434E02ACB984D000700D5 /* PostTableViewCell.xib */; };
+		DF99EF5C2ACC109E0007E093 /* ThemeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF99EF5A2ACC109D0007E093 /* ThemeTableViewCell.swift */; };
+		DF99EF5D2ACC109E0007E093 /* ThemeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF99EF5B2ACC109D0007E093 /* ThemeTableViewCell.xib */; };
+		DF99EF602ACC17BE0007E093 /* ThemeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF99EF5E2ACC17BE0007E093 /* ThemeCollectionViewCell.swift */; };
+		DF99EF612ACC17BE0007E093 /* ThemeCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF99EF5F2ACC17BE0007E093 /* ThemeCollectionViewCell.xib */; };
 		DF9B74A02ACB2DE5004ADBD8 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9B749F2ACB2DE5004ADBD8 /* HomeViewController.swift */; };
 		DFBEB7892ACB9FD800A33940 /* PostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFBEB7882ACB9FD800A33940 /* PostTableViewCell.swift */; };
 /* End PBXBuildFile section */
@@ -26,6 +30,10 @@
 		954B6B6C2AC57BE200FDCFAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		954B6B6E2AC57BE200FDCFAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DF7434E02ACB984D000700D5 /* PostTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PostTableViewCell.xib; sourceTree = "<group>"; };
+		DF99EF5A2ACC109D0007E093 /* ThemeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeTableViewCell.swift; sourceTree = "<group>"; };
+		DF99EF5B2ACC109D0007E093 /* ThemeTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ThemeTableViewCell.xib; sourceTree = "<group>"; };
+		DF99EF5E2ACC17BE0007E093 /* ThemeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeCollectionViewCell.swift; sourceTree = "<group>"; };
+		DF99EF5F2ACC17BE0007E093 /* ThemeCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ThemeCollectionViewCell.xib; sourceTree = "<group>"; };
 		DF9B749F2ACB2DE5004ADBD8 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		DFBEB7882ACB9FD800A33940 /* PostTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -74,8 +82,12 @@
 		DF94DF792ACA798D00BF021D /* Cell */ = {
 			isa = PBXGroup;
 			children = (
-				DF7434E02ACB984D000700D5 /* PostTableViewCell.xib */,
 				DFBEB7882ACB9FD800A33940 /* PostTableViewCell.swift */,
+				DF7434E02ACB984D000700D5 /* PostTableViewCell.xib */,
+				DF99EF5A2ACC109D0007E093 /* ThemeTableViewCell.swift */,
+				DF99EF5B2ACC109D0007E093 /* ThemeTableViewCell.xib */,
+				DF99EF5E2ACC17BE0007E093 /* ThemeCollectionViewCell.swift */,
+				DF99EF5F2ACC17BE0007E093 /* ThemeCollectionViewCell.xib */,
 			);
 			path = Cell;
 			sourceTree = "<group>";
@@ -148,6 +160,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				954B6B6D2AC57BE200FDCFAB /* LaunchScreen.storyboard in Resources */,
+				DF99EF5D2ACC109E0007E093 /* ThemeTableViewCell.xib in Resources */,
+				DF99EF612ACC17BE0007E093 /* ThemeCollectionViewCell.xib in Resources */,
 				954B6B6A2AC57BE200FDCFAB /* Assets.xcassets in Resources */,
 				954B6B682AC57BE100FDCFAB /* Main.storyboard in Resources */,
 				DF7434E22ACB984D000700D5 /* PostTableViewCell.xib in Resources */,
@@ -163,7 +177,9 @@
 			files = (
 				954B6B612AC57BE100FDCFAB /* AppDelegate.swift in Sources */,
 				954B6B632AC57BE100FDCFAB /* SceneDelegate.swift in Sources */,
+				DF99EF602ACC17BE0007E093 /* ThemeCollectionViewCell.swift in Sources */,
 				DF9B74A02ACB2DE5004ADBD8 /* HomeViewController.swift in Sources */,
+				DF99EF5C2ACC109E0007E093 /* ThemeTableViewCell.swift in Sources */,
 				DFBEB7892ACB9FD800A33940 /* PostTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
