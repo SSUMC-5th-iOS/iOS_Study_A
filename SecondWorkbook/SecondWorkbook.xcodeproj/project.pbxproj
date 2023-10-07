@@ -14,7 +14,7 @@
 		80EFC1212AC7FC970006DA72 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80EFC1202AC7FC970006DA72 /* Assets.xcassets */; };
 		80EFC1242AC7FC970006DA72 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80EFC1222AC7FC970006DA72 /* LaunchScreen.storyboard */; };
 		80EFC12C2AC80CB10006DA72 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80EFC12B2AC80CB10006DA72 /* CustomCell.swift */; };
-		80EFC1482AC9D5990006DA72 /* CustomCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80EFC1472AC9D5990006DA72 /* CustomCollectionViewCell.swift */; };
+		80EFC1C52AD17E6F0006DA72 /* CustomCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80EFC1C42AD17E6F0006DA72 /* CustomCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,7 +27,7 @@
 		80EFC1232AC7FC970006DA72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		80EFC1252AC7FC970006DA72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		80EFC12B2AC80CB10006DA72 /* CustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
-		80EFC1472AC9D5990006DA72 /* CustomCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CustomCollectionViewCell.swift; path = "../../../../../../../../.Trash/SecondWorkbook 오후 10.32.33/SecondWorkbook/CustomCollectionViewCell.swift"; sourceTree = "<group>"; };
+		80EFC1C42AD17E6F0006DA72 /* CustomCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +44,7 @@
 		80EFC10B2AC7FC970006DA72 = {
 			isa = PBXGroup;
 			children = (
+				80EFC1C42AD17E6F0006DA72 /* CustomCollectionViewCell.swift */,
 				80EFC1162AC7FC970006DA72 /* SecondWorkbook */,
 				80EFC1152AC7FC970006DA72 /* Products */,
 			);
@@ -65,7 +66,6 @@
 				80EFC11B2AC7FC970006DA72 /* ViewController.swift */,
 				80EFC12B2AC80CB10006DA72 /* CustomCell.swift */,
 				80EFC11D2AC7FC970006DA72 /* Main.storyboard */,
-				80EFC1472AC9D5990006DA72 /* CustomCollectionViewCell.swift */,
 				80EFC1202AC7FC970006DA72 /* Assets.xcassets */,
 				80EFC1222AC7FC970006DA72 /* LaunchScreen.storyboard */,
 				80EFC1252AC7FC970006DA72 /* Info.plist */,
@@ -145,9 +145,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				80EFC11C2AC7FC970006DA72 /* ViewController.swift in Sources */,
+				80EFC1C52AD17E6F0006DA72 /* CustomCollectionViewCell.swift in Sources */,
 				80EFC1182AC7FC970006DA72 /* AppDelegate.swift in Sources */,
 				80EFC12C2AC80CB10006DA72 /* CustomCell.swift in Sources */,
-				80EFC1482AC9D5990006DA72 /* CustomCollectionViewCell.swift in Sources */,
 				80EFC11A2AC7FC970006DA72 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
