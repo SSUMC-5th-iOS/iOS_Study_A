@@ -1,24 +1,155 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="jaq-yL-wHu">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
-        <scene sceneID="tne-QT-ifu">
+        <scene sceneID="ESs-Cw-u4L">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                <viewController storyboardIdentifier="ViewController" id="jaq-yL-wHu" customClass="ViewController" customModule="iOS_Study_A" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="IJe-N1-iTh">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="My6-kA-lFB">
+                                <rect key="frame" x="0.0" y="59" width="393" height="689"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </tableView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="46z-Ji-WcY">
+                                <rect key="frame" x="0.0" y="748" width="393" height="70"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="배달최소주문금액 " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ec9-B2-wYg">
+                                        <rect key="frame" x="10" y="10" width="122" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PqV-gI-pCe">
+                                        <rect key="frame" x="10" y="29" width="42" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JTY-sx-LxL">
+                                        <rect key="frame" x="152" y="10" width="231" height="50"/>
+                                        <color key="backgroundColor" red="0.1647058824" green="0.75686274509999996" blue="0.73725490199999999" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="20,000원 담기"/>
+                                        <connections>
+                                            <action selector="toCartView:" destination="jaq-yL-wHu" eventType="touchUpInside" id="3ov-m9-v4g"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstItem="Ec9-B2-wYg" firstAttribute="top" secondItem="46z-Ji-WcY" secondAttribute="top" constant="10" id="9sq-7C-LCD"/>
+                                    <constraint firstItem="JTY-sx-LxL" firstAttribute="top" secondItem="46z-Ji-WcY" secondAttribute="top" constant="10" id="CFb-TF-ovM"/>
+                                    <constraint firstItem="PqV-gI-pCe" firstAttribute="bottom" secondItem="JTY-sx-LxL" secondAttribute="bottom" constant="-10" id="EPr-j2-gCN"/>
+                                    <constraint firstAttribute="height" constant="70" id="F3E-6S-rr2"/>
+                                    <constraint firstAttribute="trailing" secondItem="JTY-sx-LxL" secondAttribute="trailing" constant="10" id="Hmo-nW-uz1"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="70" id="gYV-2E-DnT"/>
+                                    <constraint firstItem="PqV-gI-pCe" firstAttribute="leading" secondItem="Ec9-B2-wYg" secondAttribute="leading" id="kW2-oa-U2o"/>
+                                    <constraint firstItem="JTY-sx-LxL" firstAttribute="leading" secondItem="Ec9-B2-wYg" secondAttribute="trailing" constant="20" id="nOV-sA-HTt"/>
+                                    <constraint firstItem="Ec9-B2-wYg" firstAttribute="leading" secondItem="46z-Ji-WcY" secondAttribute="leading" constant="10" id="szh-uE-5A0"/>
+                                    <constraint firstAttribute="bottom" secondItem="JTY-sx-LxL" secondAttribute="bottom" constant="10" id="x1u-00-Su3"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="D6X-O2-1ft"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="D6X-O2-1ft" firstAttribute="trailing" secondItem="46z-Ji-WcY" secondAttribute="trailing" id="51a-fN-OHU"/>
+                            <constraint firstItem="My6-kA-lFB" firstAttribute="top" secondItem="D6X-O2-1ft" secondAttribute="top" id="FCe-BV-0rb"/>
+                            <constraint firstItem="46z-Ji-WcY" firstAttribute="top" secondItem="My6-kA-lFB" secondAttribute="bottom" id="P7c-FO-gfm"/>
+                            <constraint firstItem="D6X-O2-1ft" firstAttribute="trailing" secondItem="My6-kA-lFB" secondAttribute="trailing" id="Z3k-9H-fnQ"/>
+                            <constraint firstItem="My6-kA-lFB" firstAttribute="leading" secondItem="D6X-O2-1ft" secondAttribute="leading" id="cYN-0o-1sr"/>
+                            <constraint firstItem="D6X-O2-1ft" firstAttribute="bottom" secondItem="My6-kA-lFB" secondAttribute="bottom" constant="70" id="t6s-4U-yWa"/>
+                            <constraint firstItem="46z-Ji-WcY" firstAttribute="leading" secondItem="D6X-O2-1ft" secondAttribute="leading" id="xf3-gS-yHi"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="howMuchMinimumCost" destination="PqV-gI-pCe" id="X2u-4h-y9Y"/>
+                        <outlet property="minimumCostLabel" destination="Ec9-B2-wYg" id="TF5-FL-7Zf"/>
+                        <outlet property="orderTableView" destination="My6-kA-lFB" id="lSa-A8-e7X"/>
+                        <outlet property="orderView" destination="IJe-N1-iTh" id="W3S-1w-cX9"/>
+                        <outlet property="putShoppingCartButton" destination="JTY-sx-LxL" id="F95-Xc-dbR"/>
+                    </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uRd-nY-cyc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="100" y="-150"/>
+        </scene>
+        <!--Second View Controller-->
+        <scene sceneID="74E-up-aKk">
+            <objects>
+                <viewController storyboardIdentifier="SecondViewController" id="d9X-Cv-ufs" customClass="SecondViewController" customModule="iOS_Study_A" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="2Xi-sf-Pjf">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="p7R-YS-op8">
+                                <rect key="frame" x="0.0" y="59" width="393" height="150"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hZ9-GM-wya">
+                                        <rect key="frame" x="5" y="5" width="49.333333333333336" height="34.333333333333336"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" image="arrow.left" catalog="system"/>
+                                        <connections>
+                                            <action selector="goPreviousView:" destination="d9X-Cv-ufs" eventType="touchUpInside" id="9rb-GL-aI2"/>
+                                        </connections>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="장바구니" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i6N-K2-VJj">
+                                        <rect key="frame" x="165.33333333333334" y="11.666666666666671" width="62.333333333333343" height="21"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstItem="i6N-K2-VJj" firstAttribute="centerX" secondItem="p7R-YS-op8" secondAttribute="centerX" id="Ea0-uH-BoU"/>
+                                    <constraint firstItem="hZ9-GM-wya" firstAttribute="top" secondItem="p7R-YS-op8" secondAttribute="top" constant="5" id="Efc-y0-7Ah"/>
+                                    <constraint firstAttribute="height" constant="150" id="T4b-v7-oR4"/>
+                                    <constraint firstItem="hZ9-GM-wya" firstAttribute="leading" secondItem="p7R-YS-op8" secondAttribute="leading" constant="5" id="f7S-5y-Gs7"/>
+                                    <constraint firstItem="i6N-K2-VJj" firstAttribute="centerY" secondItem="hZ9-GM-wya" secondAttribute="centerY" id="r9k-Qr-wal"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cQB-D4-XIq">
+                                <rect key="frame" x="175.66666666666666" y="415.66666666666669" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="uFi-nx-qTh"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="p7R-YS-op8" firstAttribute="leading" secondItem="uFi-nx-qTh" secondAttribute="leading" id="BnC-0g-a5I"/>
+                            <constraint firstItem="p7R-YS-op8" firstAttribute="top" secondItem="uFi-nx-qTh" secondAttribute="top" id="Iaf-2k-0jm"/>
+                            <constraint firstItem="cQB-D4-XIq" firstAttribute="centerX" secondItem="2Xi-sf-Pjf" secondAttribute="centerX" id="OXS-1e-ujm"/>
+                            <constraint firstItem="cQB-D4-XIq" firstAttribute="centerY" secondItem="2Xi-sf-Pjf" secondAttribute="centerY" id="kBb-4e-qij"/>
+                            <constraint firstItem="uFi-nx-qTh" firstAttribute="trailing" secondItem="p7R-YS-op8" secondAttribute="trailing" id="xNX-aA-53r"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="receivedDataLabel" destination="cQB-D4-XIq" id="eQc-3H-gaW"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JAw-W0-o84" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="777.86259541984725" y="-150"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="arrow.left" catalog="system" width="128" height="95"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
 </document>
