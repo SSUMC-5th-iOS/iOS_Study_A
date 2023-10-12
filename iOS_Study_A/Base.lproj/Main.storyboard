@@ -11,7 +11,7 @@
         <!--View Controller-->
         <scene sceneID="ESs-Cw-u4L">
             <objects>
-                <viewController storyboardIdentifier="ViewController" id="jaq-yL-wHu" customClass="ViewController" customModule="iOS_Study_A" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="jaq-yL-wHu" customClass="ViewController" customModule="iOS_Study_A" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="IJe-N1-iTh">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -40,7 +40,9 @@
                                         <color key="backgroundColor" red="0.1647058824" green="0.75686274509999996" blue="0.73725490199999999" alpha="1" colorSpace="calibratedRGB"/>
                                         <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain" title="20,000원 담기"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="20,000원 담기">
+                                            <fontDescription key="titleFontDescription" type="boldSystem" pointSize="20"/>
+                                        </buttonConfiguration>
                                         <connections>
                                             <action selector="toCartView:" destination="jaq-yL-wHu" eventType="touchUpInside" id="3ov-m9-v4g"/>
                                         </connections>
