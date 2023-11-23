@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  iOS_Study_A
+//  MemoClone
 //
-//  Created by 박지윤 on 2023/09/28.
+//  Created by 박현수 on 2023/11/20.
 //
 
 import UIKit
