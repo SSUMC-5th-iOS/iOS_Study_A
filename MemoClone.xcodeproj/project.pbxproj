@@ -7,102 +7,116 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		954B6B612AC57BE100FDCFAB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954B6B602AC57BE100FDCFAB /* AppDelegate.swift */; };
-		954B6B632AC57BE100FDCFAB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954B6B622AC57BE100FDCFAB /* SceneDelegate.swift */; };
-		954B6B652AC57BE100FDCFAB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954B6B642AC57BE100FDCFAB /* ViewController.swift */; };
-		954B6B682AC57BE100FDCFAB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 954B6B662AC57BE100FDCFAB /* Main.storyboard */; };
-		954B6B6A2AC57BE200FDCFAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 954B6B692AC57BE200FDCFAB /* Assets.xcassets */; };
-		954B6B6D2AC57BE200FDCFAB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 954B6B6B2AC57BE200FDCFAB /* LaunchScreen.storyboard */; };
+		DF5218222B0B1B2F007E3E9F /* ModifyMemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5218212B0B1B2F007E3E9F /* ModifyMemoViewController.swift */; };
+		DF5218242B0B1C6B007E3E9F /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5218232B0B1C6B007E3E9F /* DetailViewController.swift */; };
+		DFB4131F2B0A739200DA60B7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB4131E2B0A739200DA60B7 /* AppDelegate.swift */; };
+		DFB413212B0A739200DA60B7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB413202B0A739200DA60B7 /* SceneDelegate.swift */; };
+		DFB413232B0A739200DA60B7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB413222B0A739200DA60B7 /* ViewController.swift */; };
+		DFB413282B0A739400DA60B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFB413272B0A739400DA60B7 /* Assets.xcassets */; };
+		DFB4132B2B0A739400DA60B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFB413292B0A739400DA60B7 /* LaunchScreen.storyboard */; };
+		DFB413342B0A761600DA60B7 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = DFB413332B0A761600DA60B7 /* SnapKit */; };
+		DFB413362B0A76DF00DA60B7 /* MemoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB413352B0A76DF00DA60B7 /* MemoTableViewCell.swift */; };
+		DFB413382B0A7C4200DA60B7 /* AddMemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB413372B0A7C4200DA60B7 /* AddMemoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		954B6B5D2AC57BE100FDCFAB /* iOS_Study_A.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS_Study_A.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		954B6B602AC57BE100FDCFAB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		954B6B622AC57BE100FDCFAB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		954B6B642AC57BE100FDCFAB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		954B6B672AC57BE100FDCFAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		954B6B692AC57BE200FDCFAB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		954B6B6C2AC57BE200FDCFAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		954B6B6E2AC57BE200FDCFAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF5218212B0B1B2F007E3E9F /* ModifyMemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModifyMemoViewController.swift; sourceTree = "<group>"; };
+		DF5218232B0B1C6B007E3E9F /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		DFB4131B2B0A739200DA60B7 /* MemoClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MemoClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFB4131E2B0A739200DA60B7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DFB413202B0A739200DA60B7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DFB413222B0A739200DA60B7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DFB413272B0A739400DA60B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DFB4132A2B0A739400DA60B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DFB4132C2B0A739400DA60B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFB413352B0A76DF00DA60B7 /* MemoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoTableViewCell.swift; sourceTree = "<group>"; };
+		DFB413372B0A7C4200DA60B7 /* AddMemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMemoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		954B6B5A2AC57BE100FDCFAB /* Frameworks */ = {
+		DFB413182B0A739200DA60B7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DFB413342B0A761600DA60B7 /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		954B6B542AC57BE100FDCFAB = {
+		DFB413122B0A739200DA60B7 = {
 			isa = PBXGroup;
 			children = (
-				954B6B5F2AC57BE100FDCFAB /* iOS_Study_A */,
-				954B6B5E2AC57BE100FDCFAB /* Products */,
+				DFB4131D2B0A739200DA60B7 /* MemoClone */,
+				DFB4131C2B0A739200DA60B7 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		954B6B5E2AC57BE100FDCFAB /* Products */ = {
+		DFB4131C2B0A739200DA60B7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				954B6B5D2AC57BE100FDCFAB /* iOS_Study_A.app */,
+				DFB4131B2B0A739200DA60B7 /* MemoClone.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		954B6B5F2AC57BE100FDCFAB /* iOS_Study_A */ = {
+		DFB4131D2B0A739200DA60B7 /* MemoClone */ = {
 			isa = PBXGroup;
 			children = (
-				954B6B602AC57BE100FDCFAB /* AppDelegate.swift */,
-				954B6B622AC57BE100FDCFAB /* SceneDelegate.swift */,
-				954B6B642AC57BE100FDCFAB /* ViewController.swift */,
-				954B6B662AC57BE100FDCFAB /* Main.storyboard */,
-				954B6B692AC57BE200FDCFAB /* Assets.xcassets */,
-				954B6B6B2AC57BE200FDCFAB /* LaunchScreen.storyboard */,
-				954B6B6E2AC57BE200FDCFAB /* Info.plist */,
+				DFB4131E2B0A739200DA60B7 /* AppDelegate.swift */,
+				DFB413202B0A739200DA60B7 /* SceneDelegate.swift */,
+				DFB413222B0A739200DA60B7 /* ViewController.swift */,
+				DFB413272B0A739400DA60B7 /* Assets.xcassets */,
+				DFB413292B0A739400DA60B7 /* LaunchScreen.storyboard */,
+				DFB4132C2B0A739400DA60B7 /* Info.plist */,
+				DFB413352B0A76DF00DA60B7 /* MemoTableViewCell.swift */,
+				DFB413372B0A7C4200DA60B7 /* AddMemoViewController.swift */,
+				DF5218212B0B1B2F007E3E9F /* ModifyMemoViewController.swift */,
+				DF5218232B0B1C6B007E3E9F /* DetailViewController.swift */,
 			);
-			path = iOS_Study_A;
+			path = MemoClone;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		954B6B5C2AC57BE100FDCFAB /* iOS_Study_A */ = {
+		DFB4131A2B0A739200DA60B7 /* MemoClone */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 954B6B712AC57BE200FDCFAB /* Build configuration list for PBXNativeTarget "iOS_Study_A" */;
+			buildConfigurationList = DFB4132F2B0A739400DA60B7 /* Build configuration list for PBXNativeTarget "MemoClone" */;
 			buildPhases = (
-				954B6B592AC57BE100FDCFAB /* Sources */,
-				954B6B5A2AC57BE100FDCFAB /* Frameworks */,
-				954B6B5B2AC57BE100FDCFAB /* Resources */,
+				DFB413172B0A739200DA60B7 /* Sources */,
+				DFB413182B0A739200DA60B7 /* Frameworks */,
+				DFB413192B0A739200DA60B7 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = iOS_Study_A;
-			productName = iOS_Study_A;
-			productReference = 954B6B5D2AC57BE100FDCFAB /* iOS_Study_A.app */;
+			name = MemoClone;
+			packageProductDependencies = (
+				DFB413332B0A761600DA60B7 /* SnapKit */,
+			);
+			productName = MemoClone;
+			productReference = DFB4131B2B0A739200DA60B7 /* MemoClone.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		954B6B552AC57BE100FDCFAB /* Project object */ = {
+		DFB413132B0A739200DA60B7 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1430;
 				LastUpgradeCheck = 1430;
 				TargetAttributes = {
-					954B6B5C2AC57BE100FDCFAB = {
+					DFB4131A2B0A739200DA60B7 = {
 						CreatedOnToolsVersion = 14.3.1;
 					};
 				};
 			};
-			buildConfigurationList = 954B6B582AC57BE100FDCFAB /* Build configuration list for PBXProject "iOS_Study_A" */;
+			buildConfigurationList = DFB413162B0A739200DA60B7 /* Build configuration list for PBXProject "MemoClone" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -110,55 +124,53 @@
 				en,
 				Base,
 			);
-			mainGroup = 954B6B542AC57BE100FDCFAB;
-			productRefGroup = 954B6B5E2AC57BE100FDCFAB /* Products */;
+			mainGroup = DFB413122B0A739200DA60B7;
+			packageReferences = (
+				DFB413322B0A761600DA60B7 /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
+			productRefGroup = DFB4131C2B0A739200DA60B7 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				954B6B5C2AC57BE100FDCFAB /* iOS_Study_A */,
+				DFB4131A2B0A739200DA60B7 /* MemoClone */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		954B6B5B2AC57BE100FDCFAB /* Resources */ = {
+		DFB413192B0A739200DA60B7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				954B6B6D2AC57BE200FDCFAB /* LaunchScreen.storyboard in Resources */,
-				954B6B6A2AC57BE200FDCFAB /* Assets.xcassets in Resources */,
-				954B6B682AC57BE100FDCFAB /* Main.storyboard in Resources */,
+				DFB4132B2B0A739400DA60B7 /* LaunchScreen.storyboard in Resources */,
+				DFB413282B0A739400DA60B7 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		954B6B592AC57BE100FDCFAB /* Sources */ = {
+		DFB413172B0A739200DA60B7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				954B6B652AC57BE100FDCFAB /* ViewController.swift in Sources */,
-				954B6B612AC57BE100FDCFAB /* AppDelegate.swift in Sources */,
-				954B6B632AC57BE100FDCFAB /* SceneDelegate.swift in Sources */,
+				DFB413232B0A739200DA60B7 /* ViewController.swift in Sources */,
+				DFB4131F2B0A739200DA60B7 /* AppDelegate.swift in Sources */,
+				DFB413212B0A739200DA60B7 /* SceneDelegate.swift in Sources */,
+				DFB413382B0A7C4200DA60B7 /* AddMemoViewController.swift in Sources */,
+				DF5218222B0B1B2F007E3E9F /* ModifyMemoViewController.swift in Sources */,
+				DFB413362B0A76DF00DA60B7 /* MemoTableViewCell.swift in Sources */,
+				DF5218242B0B1C6B007E3E9F /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		954B6B662AC57BE100FDCFAB /* Main.storyboard */ = {
+		DFB413292B0A739400DA60B7 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				954B6B672AC57BE100FDCFAB /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		954B6B6B2AC57BE200FDCFAB /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				954B6B6C2AC57BE200FDCFAB /* Base */,
+				DFB4132A2B0A739400DA60B7 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -166,7 +178,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		954B6B6F2AC57BE200FDCFAB /* Debug */ = {
+		DFB4132D2B0A739400DA60B7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -226,7 +238,7 @@
 			};
 			name = Debug;
 		};
-		954B6B702AC57BE200FDCFAB /* Release */ = {
+		DFB4132E2B0A739400DA60B7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -280,7 +292,7 @@
 			};
 			name = Release;
 		};
-		954B6B722AC57BE200FDCFAB /* Debug */ = {
+		DFB413302B0A739400DA60B7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -288,10 +300,9 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = iOS_Study_A/Info.plist;
+				INFOPLIST_FILE = MemoClone/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -299,7 +310,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "jiyoon.iOS-Study-A";
+				PRODUCT_BUNDLE_IDENTIFIER = com.umcstudy.MemoClone;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -307,7 +318,7 @@
 			};
 			name = Debug;
 		};
-		954B6B732AC57BE200FDCFAB /* Release */ = {
+		DFB413312B0A739400DA60B7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -315,10 +326,9 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = iOS_Study_A/Info.plist;
+				INFOPLIST_FILE = MemoClone/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -326,7 +336,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "jiyoon.iOS-Study-A";
+				PRODUCT_BUNDLE_IDENTIFIER = com.umcstudy.MemoClone;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -337,25 +347,44 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		954B6B582AC57BE100FDCFAB /* Build configuration list for PBXProject "iOS_Study_A" */ = {
+		DFB413162B0A739200DA60B7 /* Build configuration list for PBXProject "MemoClone" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				954B6B6F2AC57BE200FDCFAB /* Debug */,
-				954B6B702AC57BE200FDCFAB /* Release */,
+				DFB4132D2B0A739400DA60B7 /* Debug */,
+				DFB4132E2B0A739400DA60B7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		954B6B712AC57BE200FDCFAB /* Build configuration list for PBXNativeTarget "iOS_Study_A" */ = {
+		DFB4132F2B0A739400DA60B7 /* Build configuration list for PBXNativeTarget "MemoClone" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				954B6B722AC57BE200FDCFAB /* Debug */,
-				954B6B732AC57BE200FDCFAB /* Release */,
+				DFB413302B0A739400DA60B7 /* Debug */,
+				DFB413312B0A739400DA60B7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		DFB413322B0A761600DA60B7 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DFB413332B0A761600DA60B7 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DFB413322B0A761600DA60B7 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
-	rootObject = 954B6B552AC57BE100FDCFAB /* Project object */;
+	rootObject = DFB413132B0A739200DA60B7 /* Project object */;
 }
