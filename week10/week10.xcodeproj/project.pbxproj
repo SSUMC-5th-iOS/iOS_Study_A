@@ -1,0 +1,447 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DF1092802B17909E00A0CA02 /* week10App.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF10927F2B17909E00A0CA02 /* week10App.swift */; };
+		DF1092822B17909E00A0CA02 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1092812B17909E00A0CA02 /* ContentView.swift */; };
+		DF1092842B17909F00A0CA02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF1092832B17909F00A0CA02 /* Assets.xcassets */; };
+		DF1092872B17909F00A0CA02 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF1092862B17909F00A0CA02 /* Preview Assets.xcassets */; };
+		DF10928F2B17948A00A0CA02 /* CombineMoya in Frameworks */ = {isa = PBXBuildFile; productRef = DF10928E2B17948A00A0CA02 /* CombineMoya */; };
+		DF1092912B17948A00A0CA02 /* Moya in Frameworks */ = {isa = PBXBuildFile; productRef = DF1092902B17948A00A0CA02 /* Moya */; };
+		DF1092932B17948A00A0CA02 /* ReactiveMoya in Frameworks */ = {isa = PBXBuildFile; productRef = DF1092922B17948A00A0CA02 /* ReactiveMoya */; };
+		DF1092952B17948A00A0CA02 /* RxMoya in Frameworks */ = {isa = PBXBuildFile; productRef = DF1092942B17948A00A0CA02 /* RxMoya */; };
+		DF1092982B17AACF00A0CA02 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = DF1092972B17AACF00A0CA02 /* Alamofire */; };
+		DF10929C2B17AFAA00A0CA02 /* KakaoSDK in Frameworks */ = {isa = PBXBuildFile; productRef = DF10929B2B17AFAA00A0CA02 /* KakaoSDK */; };
+		DF10929E2B17AFAA00A0CA02 /* KakaoSDKAuth in Frameworks */ = {isa = PBXBuildFile; productRef = DF10929D2B17AFAA00A0CA02 /* KakaoSDKAuth */; };
+		DF1092A02B17AFAA00A0CA02 /* KakaoSDKUser in Frameworks */ = {isa = PBXBuildFile; productRef = DF10929F2B17AFAA00A0CA02 /* KakaoSDKUser */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DF10927C2B17909E00A0CA02 /* week10.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = week10.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF10927F2B17909E00A0CA02 /* week10App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = week10App.swift; sourceTree = "<group>"; };
+		DF1092812B17909E00A0CA02 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DF1092832B17909F00A0CA02 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DF1092862B17909F00A0CA02 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DF1092992B17AF6000A0CA02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DF1092792B17909E00A0CA02 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF10929E2B17AFAA00A0CA02 /* KakaoSDKAuth in Frameworks */,
+				DF1092982B17AACF00A0CA02 /* Alamofire in Frameworks */,
+				DF1092912B17948A00A0CA02 /* Moya in Frameworks */,
+				DF10928F2B17948A00A0CA02 /* CombineMoya in Frameworks */,
+				DF1092A02B17AFAA00A0CA02 /* KakaoSDKUser in Frameworks */,
+				DF1092952B17948A00A0CA02 /* RxMoya in Frameworks */,
+				DF1092932B17948A00A0CA02 /* ReactiveMoya in Frameworks */,
+				DF10929C2B17AFAA00A0CA02 /* KakaoSDK in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DF1092732B17909E00A0CA02 = {
+			isa = PBXGroup;
+			children = (
+				DF10927E2B17909E00A0CA02 /* week10 */,
+				DF10927D2B17909E00A0CA02 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DF10927D2B17909E00A0CA02 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF10927C2B17909E00A0CA02 /* week10.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF10927E2B17909E00A0CA02 /* week10 */ = {
+			isa = PBXGroup;
+			children = (
+				DF1092992B17AF6000A0CA02 /* Info.plist */,
+				DF10927F2B17909E00A0CA02 /* week10App.swift */,
+				DF1092812B17909E00A0CA02 /* ContentView.swift */,
+				DF1092832B17909F00A0CA02 /* Assets.xcassets */,
+				DF1092852B17909F00A0CA02 /* Preview Content */,
+			);
+			path = week10;
+			sourceTree = "<group>";
+		};
+		DF1092852B17909F00A0CA02 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DF1092862B17909F00A0CA02 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DF10927B2B17909E00A0CA02 /* week10 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF10928A2B17909F00A0CA02 /* Build configuration list for PBXNativeTarget "week10" */;
+			buildPhases = (
+				DF1092782B17909E00A0CA02 /* Sources */,
+				DF1092792B17909E00A0CA02 /* Frameworks */,
+				DF10927A2B17909E00A0CA02 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = week10;
+			packageProductDependencies = (
+				DF10928E2B17948A00A0CA02 /* CombineMoya */,
+				DF1092902B17948A00A0CA02 /* Moya */,
+				DF1092922B17948A00A0CA02 /* ReactiveMoya */,
+				DF1092942B17948A00A0CA02 /* RxMoya */,
+				DF1092972B17AACF00A0CA02 /* Alamofire */,
+				DF10929B2B17AFAA00A0CA02 /* KakaoSDK */,
+				DF10929D2B17AFAA00A0CA02 /* KakaoSDKAuth */,
+				DF10929F2B17AFAA00A0CA02 /* KakaoSDKUser */,
+			);
+			productName = week10;
+			productReference = DF10927C2B17909E00A0CA02 /* week10.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DF1092742B17909E00A0CA02 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					DF10927B2B17909E00A0CA02 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = DF1092772B17909E00A0CA02 /* Build configuration list for PBXProject "week10" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DF1092732B17909E00A0CA02;
+			packageReferences = (
+				DF10928D2B17948A00A0CA02 /* XCRemoteSwiftPackageReference "Moya" */,
+				DF1092962B17AACF00A0CA02 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				DF10929A2B17AFAA00A0CA02 /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */,
+			);
+			productRefGroup = DF10927D2B17909E00A0CA02 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DF10927B2B17909E00A0CA02 /* week10 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DF10927A2B17909E00A0CA02 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF1092872B17909F00A0CA02 /* Preview Assets.xcassets in Resources */,
+				DF1092842B17909F00A0CA02 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DF1092782B17909E00A0CA02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF1092822B17909E00A0CA02 /* ContentView.swift in Sources */,
+				DF1092802B17909E00A0CA02 /* week10App.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		DF1092882B17909F00A0CA02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DF1092892B17909F00A0CA02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DF10928B2B17909F00A0CA02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"week10/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = week10/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.umcstudy.week10;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DF10928C2B17909F00A0CA02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"week10/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = week10/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.umcstudy.week10;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DF1092772B17909E00A0CA02 /* Build configuration list for PBXProject "week10" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF1092882B17909F00A0CA02 /* Debug */,
+				DF1092892B17909F00A0CA02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF10928A2B17909F00A0CA02 /* Build configuration list for PBXNativeTarget "week10" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF10928B2B17909F00A0CA02 /* Debug */,
+				DF10928C2B17909F00A0CA02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		DF10928D2B17948A00A0CA02 /* XCRemoteSwiftPackageReference "Moya" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Moya/Moya.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 15.0.0;
+			};
+		};
+		DF1092962B17AACF00A0CA02 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		DF10929A2B17AFAA00A0CA02 /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kakao/kakao-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DF10928E2B17948A00A0CA02 /* CombineMoya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DF10928D2B17948A00A0CA02 /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = CombineMoya;
+		};
+		DF1092902B17948A00A0CA02 /* Moya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DF10928D2B17948A00A0CA02 /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = Moya;
+		};
+		DF1092922B17948A00A0CA02 /* ReactiveMoya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DF10928D2B17948A00A0CA02 /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = ReactiveMoya;
+		};
+		DF1092942B17948A00A0CA02 /* RxMoya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DF10928D2B17948A00A0CA02 /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = RxMoya;
+		};
+		DF1092972B17AACF00A0CA02 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DF1092962B17AACF00A0CA02 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		DF10929B2B17AFAA00A0CA02 /* KakaoSDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DF10929A2B17AFAA00A0CA02 /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */;
+			productName = KakaoSDK;
+		};
+		DF10929D2B17AFAA00A0CA02 /* KakaoSDKAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DF10929A2B17AFAA00A0CA02 /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */;
+			productName = KakaoSDKAuth;
+		};
+		DF10929F2B17AFAA00A0CA02 /* KakaoSDKUser */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DF10929A2B17AFAA00A0CA02 /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */;
+			productName = KakaoSDKUser;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = DF1092742B17909E00A0CA02 /* Project object */;
+}
