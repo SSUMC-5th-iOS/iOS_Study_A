@@ -1,0 +1,425 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		807F615B2B0ECE120081054D /* SixthWorkbookApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 807F615A2B0ECE120081054D /* SixthWorkbookApp.swift */; };
+		807F615D2B0ECE120081054D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 807F615C2B0ECE120081054D /* ContentView.swift */; };
+		807F615F2B0ECE140081054D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 807F615E2B0ECE140081054D /* Assets.xcassets */; };
+		807F61622B0ECE140081054D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 807F61612B0ECE140081054D /* Preview Assets.xcassets */; };
+		80E78B042B233A1F00628A9C /* TabButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80E78B032B233A1F00628A9C /* TabButtonView.swift */; };
+		80E78B062B2381D500628A9C /* UserDefaultKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80E78B052B2381D500628A9C /* UserDefaultKey.swift */; };
+		80E78B082B23821D00628A9C /* LogInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80E78B072B23821D00628A9C /* LogInView.swift */; };
+		80E78B0A2B2384B300628A9C /* WeatherAPIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80E78B092B2384B300628A9C /* WeatherAPIView.swift */; };
+		80E78B0E2B2385C600628A9C /* Moya in Frameworks */ = {isa = PBXBuildFile; productRef = 80E78B0D2B2385C600628A9C /* Moya */; };
+		80E78B102B2385DC00628A9C /* WeatherAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80E78B0F2B2385DC00628A9C /* WeatherAPI.swift */; };
+		80E78B122B23861600628A9C /* weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80E78B112B23861600628A9C /* weather.swift */; };
+		80E78B162B24016700628A9C /* SecondNextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80E78B152B24016700628A9C /* SecondNextView.swift */; };
+		80E78B182B2401B100628A9C /* ThirdNextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80E78B172B2401B100628A9C /* ThirdNextView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		807F61572B0ECE120081054D /* SixthWorkbook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SixthWorkbook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		807F615A2B0ECE120081054D /* SixthWorkbookApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SixthWorkbookApp.swift; sourceTree = "<group>"; };
+		807F615C2B0ECE120081054D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		807F615E2B0ECE140081054D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		807F61612B0ECE140081054D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		80E78B032B233A1F00628A9C /* TabButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabButtonView.swift; sourceTree = "<group>"; };
+		80E78B052B2381D500628A9C /* UserDefaultKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultKey.swift; sourceTree = "<group>"; };
+		80E78B072B23821D00628A9C /* LogInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInView.swift; sourceTree = "<group>"; };
+		80E78B092B2384B300628A9C /* WeatherAPIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherAPIView.swift; sourceTree = "<group>"; };
+		80E78B0F2B2385DC00628A9C /* WeatherAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherAPI.swift; sourceTree = "<group>"; };
+		80E78B112B23861600628A9C /* weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = weather.swift; sourceTree = "<group>"; };
+		80E78B152B24016700628A9C /* SecondNextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondNextView.swift; sourceTree = "<group>"; };
+		80E78B172B2401B100628A9C /* ThirdNextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdNextView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		807F61542B0ECE120081054D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80E78B0E2B2385C600628A9C /* Moya in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		807F614E2B0ECE120081054D = {
+			isa = PBXGroup;
+			children = (
+				807F61592B0ECE120081054D /* SixthWorkbook */,
+				807F61582B0ECE120081054D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		807F61582B0ECE120081054D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				807F61572B0ECE120081054D /* SixthWorkbook.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		807F61592B0ECE120081054D /* SixthWorkbook */ = {
+			isa = PBXGroup;
+			children = (
+				80E78B142B24010800628A9C /* NavigationExercise_SwiftUI */,
+				80E78B192B2403AF00628A9C /* LogInExercise_SwiftUI */,
+				80E78B132B24003B00628A9C /* APIExercise_SwiftUI */,
+				807F615A2B0ECE120081054D /* SixthWorkbookApp.swift */,
+				807F615C2B0ECE120081054D /* ContentView.swift */,
+				80E78B032B233A1F00628A9C /* TabButtonView.swift */,
+				807F615E2B0ECE140081054D /* Assets.xcassets */,
+				807F61602B0ECE140081054D /* Preview Content */,
+			);
+			path = SixthWorkbook;
+			sourceTree = "<group>";
+		};
+		807F61602B0ECE140081054D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				807F61612B0ECE140081054D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		80E78B132B24003B00628A9C /* APIExercise_SwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				80E78B092B2384B300628A9C /* WeatherAPIView.swift */,
+				80E78B112B23861600628A9C /* weather.swift */,
+				80E78B0F2B2385DC00628A9C /* WeatherAPI.swift */,
+			);
+			path = APIExercise_SwiftUI;
+			sourceTree = "<group>";
+		};
+		80E78B142B24010800628A9C /* NavigationExercise_SwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				80E78B152B24016700628A9C /* SecondNextView.swift */,
+				80E78B172B2401B100628A9C /* ThirdNextView.swift */,
+			);
+			path = NavigationExercise_SwiftUI;
+			sourceTree = "<group>";
+		};
+		80E78B192B2403AF00628A9C /* LogInExercise_SwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				80E78B052B2381D500628A9C /* UserDefaultKey.swift */,
+				80E78B072B23821D00628A9C /* LogInView.swift */,
+			);
+			path = LogInExercise_SwiftUI;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		807F61562B0ECE120081054D /* SixthWorkbook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 807F61652B0ECE140081054D /* Build configuration list for PBXNativeTarget "SixthWorkbook" */;
+			buildPhases = (
+				807F61532B0ECE120081054D /* Sources */,
+				807F61542B0ECE120081054D /* Frameworks */,
+				807F61552B0ECE120081054D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SixthWorkbook;
+			packageProductDependencies = (
+				80E78B0D2B2385C600628A9C /* Moya */,
+			);
+			productName = SixthWorkbook;
+			productReference = 807F61572B0ECE120081054D /* SixthWorkbook.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		807F614F2B0ECE120081054D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					807F61562B0ECE120081054D = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 807F61522B0ECE120081054D /* Build configuration list for PBXProject "SixthWorkbook" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 807F614E2B0ECE120081054D;
+			packageReferences = (
+				80E78B0C2B2385C600628A9C /* XCRemoteSwiftPackageReference "Moya" */,
+			);
+			productRefGroup = 807F61582B0ECE120081054D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				807F61562B0ECE120081054D /* SixthWorkbook */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		807F61552B0ECE120081054D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				807F61622B0ECE140081054D /* Preview Assets.xcassets in Resources */,
+				807F615F2B0ECE140081054D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		807F61532B0ECE120081054D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80E78B122B23861600628A9C /* weather.swift in Sources */,
+				80E78B182B2401B100628A9C /* ThirdNextView.swift in Sources */,
+				80E78B162B24016700628A9C /* SecondNextView.swift in Sources */,
+				807F615D2B0ECE120081054D /* ContentView.swift in Sources */,
+				80E78B062B2381D500628A9C /* UserDefaultKey.swift in Sources */,
+				807F615B2B0ECE120081054D /* SixthWorkbookApp.swift in Sources */,
+				80E78B042B233A1F00628A9C /* TabButtonView.swift in Sources */,
+				80E78B082B23821D00628A9C /* LogInView.swift in Sources */,
+				80E78B102B2385DC00628A9C /* WeatherAPI.swift in Sources */,
+				80E78B0A2B2384B300628A9C /* WeatherAPIView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		807F61632B0ECE140081054D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		807F61642B0ECE140081054D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		807F61662B0ECE140081054D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SixthWorkbook/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = soomin.SixthWorkbook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		807F61672B0ECE140081054D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SixthWorkbook/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = soomin.SixthWorkbook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		807F61522B0ECE120081054D /* Build configuration list for PBXProject "SixthWorkbook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				807F61632B0ECE140081054D /* Debug */,
+				807F61642B0ECE140081054D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		807F61652B0ECE140081054D /* Build configuration list for PBXNativeTarget "SixthWorkbook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				807F61662B0ECE140081054D /* Debug */,
+				807F61672B0ECE140081054D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		80E78B0C2B2385C600628A9C /* XCRemoteSwiftPackageReference "Moya" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Moya/Moya.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		80E78B0D2B2385C600628A9C /* Moya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 80E78B0C2B2385C600628A9C /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = Moya;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 807F614F2B0ECE120081054D /* Project object */;
+}
